@@ -5,7 +5,7 @@ end
 
 def add_supply_to_winter_holidays(supplies_hash, supply)
   holiday_hash[:winter].each do |key, value|
-    'value' << supply
+    value << supply
   end
 end
 
